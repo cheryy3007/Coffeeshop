@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    margin: 0 auto;
+    width: 1920px;
+    height: 125px;
+    background: #1C1814;
+}
+.container{
+    margin: 0  300px;
+}
+.nav{
+    display: flex;
+}
+.nav ul{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 50px;
+    margin-top: 55px;
+    line-height: 21.78px;   
+    color: #FFFFFF; 
+}
+.nav ul li:hover{
+    color: #C99E71;
+}
+.img{
+    margin-top: -15px;
+}
+.video{
+    width: 1920px;
+    position: relative;
+    top: 25px;
+    right: 300px;
+}
+.header-content h1{
+    width: 529px;
+    font-family: "Righteous", sans-serif;
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 400;
+    position: relative;
+    bottom: 800px;
+    line-height: 93.6px;    
+}
+.header-content p{
+    width: 511px;
+    font-family: "Urbanist", system-ui;
+    font-size: 20px;
+    position: relative;
+    bottom: 750px;
+    color: #FFFFFFCC;
+    font-weight: 500;
+    line-height: 36px;    
+}
+.btn{
+    width: 202px;
+    height: 70px;
+    background: #C99E71;
+    border: none;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 700px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;    
+    padding: 24px 40px 24px 40px;    
+}
+.section{
+    width: 1920px;
+    position: relative;
+    top: 800px;
+    z-index: -1;
+    height: 4002px;  
+    margin: 0 auto;  
+    background: #14110E;
+}
+.container-cards{
+    margin: 0 375px;
+}
+.cards{
+    display: flex;
+    gap: 36px;
+}
+.card{
+    padding-top: 500px;
+}
+.card h2{
+    font-family: "Righteous", sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px;   
+}
+.card img{
+    margin-top: 24px;
+}
+.create{
+    position: relative;
+    bottom: 100px;
+}
+.create2{
+    position: relative;
+    top: 250px;
+    right: 300px;
+}
+.create3{
+    width: 298px;
+    height: 650px;
+    position: relative;
+    top: 250px;
+    right: 275px;
+}
+.new{
+    width: 510px;
+    height: 650px;
+    background: #1C1814;
+    position: relative;
+    bottom: 400px;  
+    left: 660px;  
+}
+.new h3{
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;    
+    color: #C99E71;
+    position: relative;
+    top: 120px;
+    left: 56px;
+}
+.new h4{
+    width: 398px;
+    font-family: "Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px; 
+    color: #FFFFFF; 
+    position: relative;
+    top: 154px;
+    left: 56px;  
+}
+.new p{
+    width: 398px;
+    font-family: "Urbanist", system-ui;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px; 
+    color: #FFFFFFCC;   
+    position: relative;
+    top: 204px;
+    left: 56px;
+}
+.cooffee h3{
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #C99E71; 
+    position: relative;   
+    bottom: 380px;
+    text-align: center;
+}
+.cooffee h4{
+    font-family: "Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;  
+    position: relative;   
+    bottom: 360px;
+    color: #FFFFFF;
+    text-align: center;  
+}
+.coffee-cards{
+    display: flex;
+    gap: 36px;
+    margin: 0 100px;
+}
+.coffee_card{
+    width: 366px;
+    height: 579px;
+    position: relative;
+    bottom: 300px;
+}
+.coffee_card img{
+    position: relative;
+    top: 48px;
+    left: 48px;
+}
+.coffee_card h5{
+    font-family: "Righteous", sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: 75px;
+    left: 61px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px   
+}
+.coffee_btn{
+    width: 169px;
+    height: 48px;
+    background: #C99E71;
+    font-family: "Urbanist", system-ui;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    padding-left: 20px;
+    position: relative;
+    top: 40px;   
+    left: 99px; 
+}
+.shop{
+    margin-top: 65px;
+    margin-left: -110px;
+}
+.star{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.coffee_card_2{
+    width: 366px;
+    height: 579px;
+    
+    position: relative;
+    bottom: 300px;
+}
+.coffee_card_2 img{
+    position: relative;
+    top: 48px;
+    left: 48px;
+}
+.coffee_card_2 h5{
+    font-family: "Righteous", sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: 70px;
+    left: 61px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px   
+}
+.coffee_card_2 p{
+    font-family: "Urbanist", system-ui;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;  
+    position: relative;
+    top: 100px;  
+    left: 94px;
+}
+.coffee_card_3{
+    width: 366px;
+    height: 579px;
+    position: relative;
+    bottom: 300px;
+}
+.coffee_card_3 img{
+    position: relative;
+    top: 48px;
+    left: 48px;
+}
+.coffee_card_3 h5{
+    font-family: "Righteous", sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: 70px;
+    left: 61px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px   
+}
+.coffee_card_3 p{
+    font-family: "Urbanist", system-ui;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;  
+    position: relative;
+    top: 100px;  
+    left: 94px;
+}
+.view{
+    width: 300px;
+    height: 70px;
+    padding: 20px 36px 20px 36px;  
+    background: #C99E71;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: 350px;
+    right: 510px;
+    line-height: 21.78px;
+    color: #FFFFFF;     
+}
+.machine{
+    width: 1170px;
+    height: 530px;
+    background: #1C1814; 
+}
+.machine img{
+    position: relative;
+    top: 85px;
+    left: 169px;
+}
+.machine h3{
+    width: 501px;
+    font-family: "Righteous", sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    position: relative;
+    bottom: 280px;
+    left: 555px;
+}
+.machine p{
+    width: 535px;
+    font-family: "Urbanist", system-ui;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px; 
+    color: #FFFFFFCC; 
+    position: relative;
+    bottom: 232px;  
+    left: 555px;
+}
+.machine_button{
+    width:  215px;
+    height:  62px;
+    padding: 20px 36px 20px 36px;
+    background: #C99E71;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;  
+    position: relative;
+    bottom: 200px;
+    border: none; 
+    left: 555px;       
+}
+.menu_cards_2{
+    position: relative;
+    left: 750px;
+    bottom: 700px;
+}
+.menu{
+    width: 1920px;
+    height: 2620px;
+    background: #14110E;
+    position: relative;
+    right: 375px;
+}
+.menu h3{
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #C99E71;    
+    padding-top: 70px;
+    text-align: center;
+}
+.menu h4{
+    font-family: "Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 12px;
+}
+.menu_card{
+    width: 565px;
+    height: 120px;
+    border: 1px solid #32323D;
+    margin-top: 56px; 
+    margin-left: 375px;   
+}
+.menu_card img{
+    position: relative;
+    top: 24px;
+    left: 24px;
+}
+.menu_card h4{
+    font-family: "Righteous", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px;  
+    color: #FFFFFF;
+    position: relative;
+    bottom: 45px;  
+}
+.menu_card p{
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;    
+    color: #C99E71;
+    position: relative;
+    left: 489px;
+    bottom: 70px;
+}
+.testimonial h4{
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;  
+    color: #C99E71;
+    text-align: center;  
+    position: relative;
+    bottom: 600px;
+}
+.testimonial h5{
+    font-family: "Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    bottom: 590px;
+}
+.testimonial-cards{
+    display: flex;
+    gap: 40px;
+}
+.testimonial-card{
+    width: 565px;
+    height: 305px;    
+    background: #1C1814;
+    position: relative;
+    bottom: 500px;
+    left: 375px;
+} 
+.testimonial-card h2{
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    color: #FFFFFF;
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+.testimonial-card h3{
+    font-family: "Urbanist", system-ui;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.2px;  
+    color: #FFFFFF80; 
+    position: relative;
+    right: 190px; 
+}
+.testimonial-card p{
+    width: 322px;
+    font-family: "Urbanist", system-ui;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px; 
+    color: #FFFFFFCC; 
+    position: relative;
+    bottom: 230px;  
+    left: 200px;
+}
+.testimonial-card img{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.stars_2{
+    position: relative;
+    bottom: 205px;
+    left: 361px;
+}
+.people{
+    width: 120px;
+    height: 51px;    
+    position: relative;
+    bottom: 130px;
+    right: 830px;
+}
+.slide{
+    width: 128px;
+    height: 56px;
+    position: relative;
+    bottom: 130px;
+    left: 50px;    
+}
+.map{
+    position: relative;
+    left: 375px;
+    bottom: 250px;
+}
+.reservation_card{
+    width: 585px;
+    height: 652px;
+    background: #1C1814;
+    position: relative;
+    left: 960px;    
+    bottom: 905px;
+}
+.reservation_card h2{
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #C99E71;
+    text-align: center;  
+    padding-top: 72px;  
+}
+.reservation_card h3{
+    font-family:"Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 59.6px;
+    color: #FFFFFF;   
+    position: relative;
+    bottom: 50px; 
+}
+.person{
+    width: 489px;
+    height: 64px;
+    background-color: #14110E; 
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;  
+    color: #FFFFFFCC; 
+    padding-top: 16px;
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-left: 48px;    
+}
+.date{
+    width: 489px;
+    height: 64px;
+    background-color: #14110E; 
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;  
+    color: #FFFFFFCC; 
+    padding-top: 16px;
+    padding-left: 20px;
+    margin-top: 24px;
+    margin-left: 48px;    
+}
+.time{
+    width: 489px;
+    height: 64px;
+    background-color: #14110E; 
+    font-family: "Urbanist", system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;  
+    color: #FFFFFFCC; 
+    padding-top: 16px;
+    padding-left: 20px;
+    margin-top: 24px;
+    margin-left: 48px;    
+}
+.book{
+    width:  202px;
+    height: 62px;   
+    background: #C99E71;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: #FFFFFF;   
+    border: none;
+    margin-top: 56px;
+    margin-left: 192px;
+}
+.footer{
+    position: relative;
+    top: 2700px;
+}
+.container_{
+    margin: 0 375px;
+}
+.img{
+    width: 72px;
+    height: 70px;    
+}
+.group{
+    position: relative;
+    bottom: 35px;
+    left: 50px;
+}
